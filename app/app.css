@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10em);
+    padding: 5em;
+    background-color: #fafafa;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.title{
+    min-width: 10em;
+}
+
+.title h3{
+    font-size: 2em;
+}
+
+.title h1{
+    font-style: italic;
+    font-size: 1.5em;
+    color: #999;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    min-width: 15em;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid #d8d8d8;
+    border-radius: .5em;
+    box-shadow: 0 2px 4px 0 rgba(84, 92, 95, .25);
+    background: #fff;
+}
+
+.infos ul {
+    margin-right: 1em;
+    line-height: 1em;
+    flex-shrink: 0;
+}
+
+.infos li {
+    font-style: italic;
+    font-size: 0.75em;
+    color: #999;
+    text-align: right;
+}
+
+.infos a {
+    color: #6CC0E5;
+    margin-left: 0.5em;
+}
+
+.infos span{
+    margin-left: 0.5em;
+}
+
+.photo{
+    width: 5em;
+    height: 6.5em;
+    border: 1px solid #6CC0E5;
+    border-radius: 3px;
+    padding: 0.2em;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+
+.topic{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.topic_title{
+    display: flex;
+    align-items: center;
+}
+
+.topic_title div:nth-child(2){
+    color: #6CC0E5;
+    font-size: 1.3em;
+}
+
+.blueline{
+    background-color: #6CC0E5;
+    width: 6em;
+    height: 0.5em;
+    margin-right: 1em;
+}
+
+.history li{
+    display: flex;
+}
+
+.history ul {
+font-family: Georgia, Times, 'Times New Roman', serif;
+line-height: 1.9em;
+}
+
+.description span:nth-child(1){
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+
+.description span:nth-child(2){
+    margin-right: 0.3em;
+    font-style: italic;
+}
+
+.description span:nth-child(3){
+    font-style: normal;
+}
+
+.date{
+    width: 6em;
+    min-width: 6em;
+    text-align: right;
+    margin-right: 1em;
+    color: #999;
+}
+
+.skill{
+    width: 6em;
+    min-width: 6em;
+    text-align: right;
+    margin-right: 1em;
+    color: #999;
+}
+
